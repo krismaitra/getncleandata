@@ -42,51 +42,95 @@ The tidy dataset consists of 10299 observations of 88 variables, extracted our o
 
 The tidy_data.txt file contains the following variables:
 
----
- "subject"                           "activity"                         
- "tbodyaccmeanx"                     "tbodyaccmeany"                    
- "tbodyaccmeanz"                     "tbodyaccstdx"                     
- "tbodyaccstdy"                      "tbodyaccstdz"                     
- "tgravityaccmeanx"                  "tgravityaccmeany"                 
- "tgravityaccmeanz"                  "tgravityaccstdx"                  
- "tgravityaccstdy"                   "tgravityaccstdz"                  
- "tbodyaccjerkmeanx"                 "tbodyaccjerkmeany"                
- "tbodyaccjerkmeanz"                 "tbodyaccjerkstdx"                 
- "tbodyaccjerkstdy"                  "tbodyaccjerkstdz"                 
- "tbodygyromeanx"                    "tbodygyromeany"                   
- "tbodygyromeanz"                    "tbodygyrostdx"                    
- "tbodygyrostdy"                     "tbodygyrostdz"                    
- "tbodygyrojerkmeanx"                "tbodygyrojerkmeany"               
- "tbodygyrojerkmeanz"                "tbodygyrojerkstdx"                
- "tbodygyrojerkstdy"                 "tbodygyrojerkstdz"                
- "tbodyaccmagmean"                   "tbodyaccmagstd"                   
- "tgravityaccmagmean"                "tgravityaccmagstd"                
- "tbodyaccjerkmagmean"               "tbodyaccjerkmagstd"               
- "tbodygyromagmean"                  "tbodygyromagstd"                  
- "tbodygyrojerkmagmean"              "tbodygyrojerkmagstd"              
- "fbodyaccmeanx"                     "fbodyaccmeany"                    
- "fbodyaccmeanz"                     "fbodyaccstdx"                     
- "fbodyaccstdy"                      "fbodyaccstdz"                     
- "fbodyaccmeanfreqx"                 "fbodyaccmeanfreqy"                
- "fbodyaccmeanfreqz"                 "fbodyaccjerkmeanx"                
- "fbodyaccjerkmeany"                 "fbodyaccjerkmeanz"                
- "fbodyaccjerkstdx"                  "fbodyaccjerkstdy"                 
- "fbodyaccjerkstdz"                  "fbodyaccjerkmeanfreqx"            
- "fbodyaccjerkmeanfreqy"             "fbodyaccjerkmeanfreqz"            
- "fbodygyromeanx"                    "fbodygyromeany"                   
- "fbodygyromeanz"                    "fbodygyrostdx"                    
- "fbodygyrostdy"                     "fbodygyrostdz"                    
- "fbodygyromeanfreqx"                "fbodygyromeanfreqy"               
- "fbodygyromeanfreqz"                "fbodyaccmagmean"                  
- "fbodyaccmagstd"                    "fbodyaccmagmeanfreq"              
- "fbodybodyaccjerkmagmean"           "fbodybodyaccjerkmagstd"           
- "fbodybodyaccjerkmagmeanfreq"       "fbodybodygyromagmean"             
- "fbodybodygyromagstd"               "fbodybodygyromagmeanfreq"         
- "fbodybodygyrojerkmagmean"          "fbodybodygyrojerkmagstd"          
- "fbodybodygyrojerkmagmeanfreq"      "angletbodyaccmeangravity"         
- "angletbodyaccjerkmeangravitymean"  "angletbodygyromeangravitymean"    
- "angletbodygyrojerkmeangravitymean" "anglexgravitymean"                
- "angleygravitymean"                 "anglezgravitymean" 
----
+1. activity
+2. tbodyaccmeany
+3. tbodyaccstdx
+4. tbodyaccstdz
+5. tgravityaccmeany
+6. tgravityaccstdx
+7. tgravityaccstdz
+8. tbodyaccjerkmeany
+9. tbodyaccjerkstdx
+10. tbodyaccjerkstdz
+11. tbodygyromeany
+12. tbodygyrostdx
+13. tbodygyrostdz
+14. tbodygyrojerkmeany
+15. tbodygyrojerkstdx
+16. tbodygyrojerkstdz
+17. tbodyaccmagstd
+18. tgravityaccmagstd
+19. tbodyaccjerkmagstd
+20. tbodygyromagstd
+21. tbodygyrojerkmagstd
+22. fbodyaccmeany
+23. fbodyaccstdx
+24. fbodyaccstdz
+25. fbodyaccmeanfreqy
+26. fbodyaccjerkmeanx
+27. fbodyaccjerkmeanz
+28. fbodyaccjerkstdy
+29. fbodyaccjerkmeanfreqx
+30. fbodyaccjerkmeanfreqz
+31. fbodygyromeany
+32. fbodygyrostdx
+33. fbodygyrostdz
+34. fbodygyromeanfreqy
+35. fbodyaccmagmean
+36. fbodyaccmagmeanfreq
+37. fbodybodyaccjerkmagstd
+38. fbodybodygyromagmean
+39. fbodybodygyromagmeanfreq
+40. fbodybodygyrojerkmagstd
+41. angletbodyaccmeangravity
+42. angletbodygyromeangravitymean
+43. anglexgravitymean
+44. anglezgravitymean
+45. activity
+46. tbodyaccmeany
+47. tbodyaccstdx
+48. tbodyaccstdz
+49. tgravityaccmeany
+50. tgravityaccstdx
+51. tgravityaccstdz
+52. tbodyaccjerkmeany
+53. tbodyaccjerkstdx
+54. tbodyaccjerkstdz
+55. tbodygyromeany
+56. tbodygyrostdx
+57. tbodygyrostdz
+58. tbodygyrojerkmeany
+59. tbodygyrojerkstdx
+60. tbodygyrojerkstdz
+61. tbodyaccmagstd
+62. tgravityaccmagstd
+63. tbodyaccjerkmagstd
+64. tbodygyromagstd
+65. tbodygyrojerkmagstd
+66. fbodyaccmeany
+67. fbodyaccstdx
+68. fbodyaccstdz
+69. fbodyaccmeanfreqy
+70. fbodyaccjerkmeanx
+71. fbodyaccjerkmeanz
+72. fbodyaccjerkstdy
+73. fbodyaccjerkmeanfreqx
+74. fbodyaccjerkmeanfreqz
+75. fbodygyromeany
+76. fbodygyrostdx
+77. fbodygyrostdz
+78. fbodygyromeanfreqy
+79. fbodyaccmagmean
+80. fbodyaccmagmeanfreq
+81. fbodybodyaccjerkmagstd
+82. fbodybodygyromagmean
+83. fbodybodygyromagmeanfreq
+84. fbodybodygyrojerkmagstd
+85. angletbodyaccmeangravity
+86. angletbodygyromeangravitymean
+87. anglexgravitymean
+88. anglezgravitymean
+
 The first two variables in the tidy dataset are "subject" and "activity". The remaining 86 variables in the tidy dataset are actually the values of the corresponding features *averaged over each activity and each subject*.
+
 The description about the corresponding feature variables in the original dataset can be found in the features_info.txt file included with the original dataset. 
