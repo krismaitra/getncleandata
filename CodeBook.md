@@ -23,8 +23,8 @@ The outcome or the actual activity performed are present in the data files y_tra
 
 ## Creating the tidy datafile
 
-### Guide to create the tidy data file
-Following is a brief outline of the steps to create the tidy data file (detailed steps about creating the tidy data file are given in the [readme](https://github.com/krismaitra/getncleandata/blob/master/README.md) of this repository):
+### Guide to create the tidy dataset
+Following is a brief outline of the steps to create the tidy dataset (detailed steps about creating the tidy dataset are given in the [readme](https://github.com/krismaitra/getncleandata/blob/master/README.md) of this repository):
 1. Download the data file and keep in working directory
 2. Run the script run_analysis.R given in this repository
 
@@ -36,7 +36,7 @@ The script creates a tidy dataset from the original dataset using the following 
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Description of the variables in the tidy_data.txt file
+## Description of the variables in the tidy dataset
 
 The tidy dataset consists of 10299 observations of 88 variables, extracted our of the 563 variables in the original dataset.
 
