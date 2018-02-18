@@ -21,7 +21,7 @@ The data is divided into training and test data. Each set contains the raw signa
 The name of each feature is given in the features.txt file. The features_info.txt file contains detailed information about each feature.
 The outcome or the actual activity performed are present in the data files y_train.txt and y_test.txt, respectively. The descriptive labels of each activity is given in the activity_labels.txt file.
 
-## Creating the tidy datafile
+## Creating the tidy dataset
 
 ### Guide to create the tidy dataset
 Following is a brief outline of the steps to create the tidy dataset (detailed steps about creating the tidy dataset are given in the [readme](https://github.com/krismaitra/getncleandata/blob/master/README.md) of this repository):
