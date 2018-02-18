@@ -48,3 +48,10 @@ unzip("data.zip")
 file.remove("data.zip")
 ```
 
+## Running the script to get the tidy dataset
+
+Run the script run_analysis.R in R as follows:
+
+```R
+source("run_analysis.R")
+```
