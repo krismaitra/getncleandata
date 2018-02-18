@@ -40,7 +40,7 @@ The script creates a tidy dataset from the original dataset using the following 
 
 The tidy dataset consists of 180 observations of 88 variables, extracted out of the 10299 observations on 563 variables in the original dataset.
 
-The tidy_data.txt file contains the following variables:
+The tidy dataset contains the following variables:
 
 1. subject
 2. activity
